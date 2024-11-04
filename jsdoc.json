@@ -1,0 +1,16 @@
+{
+  "source": {
+    "include": ["src"],
+    "includePattern": ".+\\.(js|jsx|ts|tsx)$",
+    "excludePattern": "(node_modules|\\.git)"
+  },
+  "plugins": [
+    "node_modules/jsdoc/typescript"
+  ],
+  "opts": {
+    "destination": "./docs"
+  },
+  "tags": {
+    "allowUnknownTags": true
+  }
+}
